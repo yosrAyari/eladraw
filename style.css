@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+section{
+	top: 0;
+	position: absolute;
+	left: 27.5%;
+	width: 45%;
+	height: 110%;
+	background-color: #cdfffc;
+	z-index: -3;
+	box-shadow: 0 0 20px #dae3e0;
+}
+#article1{
+	border: 3px solid #969696;
+	border-bottom: white;
+	margin-top: 20%;
+	border-top-left-radius:500px ;
+	border-top-right-radius: 500px;
+	width: 99%;
+	height: 120%;
+	background-color: white;
+	z-index: -2;
+	box-shadow: 0 0 50px #dae3e0;
+}
+#article2{
+	z-index: 1;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+}
+#icon{
+	filter: drop-shadow(0 0 50px #dae3e0);
+	width: 27.5%;
+	margin-bottom: 1%;
+}
+#h1{
+	font-family: 'Cairo', sans-serif;
+	font-size: 35px;
+	cursor: pointer;
+	text-decoration: none;
+	color:#FF6B8E;
+	margin-bottom: 5%;
+}
+#h1:active{color: #FF92AC;}
+#h1:hover{color: #FF92AC;}
+.links {
+	margin-left: 5%;
+	margin-top: 50px;
+	width: 90%;
+	height: 100px;
+	border-radius: 50px;
+	background-color:#FFD58B ;
+	box-shadow: 0 5px 0 #FFB93D;
+	position: relative;
+	cursor: pointer;
+}
+.links:hover{
+	background-color:#FFDC9F ;
+}
+.links:active{
+	box-shadow: 0 0 0 #FFB93D;
+	top: 10px;
+}
+.sou-icons{
+	position: relative;
+	width: 58px;
+	height: 58px;
+	border-radius: 50px;
+	top: 20px;
+	left: 20px;
+	float: left;
+}
+a{
+	text-decoration: none;
+	font-family: 'Cairo', sans-serif;
+	position: relative;
+}
+.sou-h2{
+	text-align: center;
+	width: 100%;
+}
+h2{
+	font-size: 28px;
+	padding-top: 24px;
+	color: #4D5763;
+}
+
+.img-icon{
+	width: 58px;
+	height: 58px;
+	border-radius: 50px;
+}
+@media screen and (max-width: 680px) {
+	section{
+		width: 100%;
+		left: 0;
+	}
+}
